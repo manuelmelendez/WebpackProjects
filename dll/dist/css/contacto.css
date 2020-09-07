@@ -1,0 +1,43 @@
+body .post-css {
+      color: yellow;
+    }
+body {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'open_sansregular';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    /* animation: 300ms latido infinite; */
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url([object Module]);
+    src: url("[object Module]?#iefix") format('embedded-opentype'),
+        url([object Module]) format('woff'),
+        url([object Module]) format('truetype'),
+        url("[object Module]#open_sansregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }  
+
+@keyframes latido {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+.sass{color:pink}
+
